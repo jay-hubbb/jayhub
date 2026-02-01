@@ -181,7 +181,7 @@ local function GetFreeSlot(base)
 end
 
 local function UpgradeTo125(tool)
-    if tool:GetAttribute("Level") == 125 then
+    if tool:GetAttribute("Level") >= 50 then
         return
     end
 
